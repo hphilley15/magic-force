@@ -15,4 +15,20 @@ def my_shuffle( arr ):
 
 Do not use itertools or similar libraries, but try and implement the suffle by yourself.
 
+# What would define a good shuffle algorithm?
+
+We could implement a version of the various ways that humans shuffle cards, but that does not seem like a useful inspiration.
+
+Instead, we should try and determine what makes a good shuffle algorithm.
+
+To determine if something is a good shuffle, we have to take
+the statistics into consideration.
+A single test is not enough to be able to give an answer.
+
+We would expect that the probability of an element to end up
+in position 1, .. , N being 1/N each.
+
+
+
+
 
